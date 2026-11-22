@@ -1,17 +1,20 @@
-# Exercise 04: Blinking LEDs with millis()
+# Exercise 06: LED Brightness Control with PWM
 
-This exercise demonstrates how to blink multiple LEDs independently using the `millis()` function for non-blocking timing on an ESP32.
+This exercise demonstrates how to control LED
+brightness using PWM on an ESP32, with
+non-blocking timing.
 
 ## Components
 
 - ESP32 DevKit V1
-- 3x LEDs
-- 3x 220 Ω resistors
+- LED
+- 220 Ω resistor
 - Jumper wires
 - Breadboard
 
 ## Concepts
 
-- Non-blocking timing
-- millis() function
-- Independent LED control
+- Pulse Width Modulation (PWM)
+- Duty cycle
+- PWM frequency and resolution
+- Non-blocking timing with millis()
