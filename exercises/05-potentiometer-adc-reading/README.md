@@ -1,17 +1,20 @@
-# Exercise 04: Blinking LEDs with millis()
+# Exercise 05: Potentiometer ADC Reading
 
-This exercise demonstrates how to blink multiple LEDs independently using the `millis()` function for non-blocking timing on an ESP32.
+This exercise demonstrates how to read a potentiometer using the ESP32's ADC, calculate its position as a percentage, and control an LED's blinking behavior based on the potentiometer's position.
 
 ## Components
 
 - ESP32 DevKit V1
-- 3x LEDs
-- 3x 220 Ω resistors
+- Potentiometer
+- LED
+- 220 Ω resistor
 - Jumper wires
 - Breadboard
 
 ## Concepts
 
-- Non-blocking timing
-- millis() function
-- Independent LED control
+- Analog-to-Digital Conversion (ADC)
+- Analog input reading
+- ADC resolution
+- Value mapping and percentage calculation
+- LED blinking control
